@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './roleview.component.html',
   styleUrls: ['./roleview.component.css']
 })
+
 export class RoleviewComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }
