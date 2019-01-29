@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
    constructor(public dialog: MatDialog) {}
    openDialog(): void {
     const dialogRef = this.dialog.open(SignupComponent, {
-      width: '250px'}
+      width: '250px',data: {}}
     });
 
   ngOnInit() {
