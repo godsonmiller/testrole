@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private _activatedRoute: ActivatedRoute, private _router: Router) { }
   onButtonClick(): void{
-    this._router.navigate(['/SignupComponent']);
+    this._router.navigate(['/roleview']);
   }
 
   ngOnInit() {
